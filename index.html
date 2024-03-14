@@ -11,8 +11,17 @@
 </head>
 
 <body>
+  <div>
+    <h1 style="text-align: center;color: #ffffff;">
+      CALCULATOR
+    </h1>
+  </div>
   <div class="calculator">
     <input type="text" id="display" disabled>
+    <input type="button" value="(" onclick="addToDisplay('(')">
+    <input type="button" value=")" onclick="addToDisplay(')')">
+    <input type="button" value="%" onclick="addToDisplay('%')">
+    <input type="button" id="dot" value="." onclick="addToDisplay('.')">
     <input type="button" value="7" onclick="addToDisplay('7')">
     <input type="button" value="8" onclick="addToDisplay('8')">
     <input type="button" value="9" onclick="addToDisplay('9')">
