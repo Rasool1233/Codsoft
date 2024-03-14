@@ -1,0 +1,33 @@
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  padding: 15px;
+  border: 2cap black;
+  border-radius: 10px;
+  background-color: darkcyan;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: ghostwhite;
+}
+
+input[type="button"]:hover {
+  background-color: lightpink;
+  cursor: pointer;
+}
+
+#display {
+  grid-column: span 4;
+  text-align: left;
+  padding: 3px;
+  font-size: 1.5em;
+}
