@@ -1,6 +1,7 @@
 body
 {
-  background: linear-gradient(to right, #1714d2, #e53cfb );
+  background-color: #0b1522;
+  color: white;
 }
 .calculator {
   width: 300px;
@@ -22,11 +23,10 @@ input[type="button"] {
   border-radius: 3px;
   border: 1px solid #ccc;
   background-color: ghostwhite;
-  AC-color: blue;
 }
 
 input[type="button"]:hover {
-  background-color: lightpink;
+  background-color: #f9d7dc;
   cursor: pointer;
 }
 
@@ -38,5 +38,29 @@ input[type="button"]:hover {
 }
 #dot{
   font-size: 20px;
-  
+}
+
+#dot {
+  font-size: 20px;
+}
+
+.animated-heading {
+  font-size: 40px;
+  background: linear-gradient(to right,
+     #d228c4, #06ea21);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient 2s linear infinite;
+}
+@keyframes gradient{
+  0%{
+    background-position: 0% 75%;
+  }
+  50%{
+    background-position: 100% 30%;
+  }
+  100%{
+    background-position: 0% 70%;
+  }
 }
