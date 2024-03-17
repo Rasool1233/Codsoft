@@ -22,6 +22,7 @@ input[type="button"] {
   border-radius: 3px;
   border: 1px solid #ccc;
   background-color: ghostwhite;
+  AC-color: blue;
 }
 
 input[type="button"]:hover {
